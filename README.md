@@ -10,7 +10,7 @@ kubectl create secret generic kubernetes-dashboard-certs --from-file=/root/certs
 kubectl apply -f dashboard-2.0.0b.yml
 ```
 
-#### How get tokken
+#### How get token
 ```sh
 kubectl -n kubernetes-dashboard describe secret $(kubectl -n kubernetes-dashboard get secret | grep admin-user | awk '{print $1}')
 ```
