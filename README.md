@@ -11,6 +11,14 @@ kubectl apply -f https://raw.githubusercontent.com/denizzzzp/K8S-Dashboard/maste
 kubectl -n kubernetes-dashboard describe secret $(kubectl -n kubernetes-dashboard get secret | grep admin-user | awk '{print $1}')
 ```
 
+#### How login in web
+
+  - https://<IP-KUBER-HOST>:31443/#/login
+  - select "Token" and enter token for admin-user
+
+> P.S. Metric chart will be displayed in a couple of minutes
+
+
 #### How to use your certificate
 ```sh
 mkdir /root/certs/
