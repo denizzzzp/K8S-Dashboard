@@ -2,7 +2,8 @@
 
 #### How to use
 ```sh
-kubectl apply -f https://raw.githubusercontent.com/denizzzzp/K8S-Dashboard/master/dashboard-2.0.0b.yml
+kubectl apply -f https://raw.githubusercontent.com/denizzzzp/K8S-Dashboard/master/dashboard-2.0.0-rc2.yml
+kubectl apply -f https://raw.githubusercontent.com/denizzzzp/K8S-Dashboard/master/dmetrics-server.yml
 ```
 
 #### How get token
