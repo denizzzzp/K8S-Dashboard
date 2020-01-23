@@ -18,6 +18,8 @@ kubectl -n kubernetes-dashboard describe secret $(kubectl -n kubernetes-dashboar
 
 > P.S. Metric chart will be displayed in a couple of minutes
 
+![K8S-Dashboard](https://image.prntscr.com/image/_OJmIFOzRnCr9O1tLWb2tQ.png)
+
 
 #### How to use your certificate
 ```sh
