@@ -13,7 +13,7 @@ kubectl -n kubernetes-dashboard describe secret $(kubectl -n kubernetes-dashboar
 
 #### How login in web
 
-  - https://<IP-KUBER-HOST>:31443/#/login
+  - https://IP-KUBER-HOST:31443/#/login
   - select "Token" and enter token for admin-user
 
 > P.S. Metric chart will be displayed in a couple of minutes
