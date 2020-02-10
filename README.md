@@ -2,7 +2,7 @@
 
 #### How to use
 ```sh
-kubectl apply -f https://raw.githubusercontent.com/denizzzzp/K8S-Dashboard/master/dashboard-2.0.0-rc4.yml
+kubectl apply -f https://raw.githubusercontent.com/denizzzzp/K8S-Dashboard/master/dashboard-2.0.0-rc5.yml
 kubectl apply -f https://raw.githubusercontent.com/denizzzzp/K8S-Dashboard/master/metrics-server.yml
 ```
 
